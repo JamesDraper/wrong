@@ -1,0 +1,13 @@
+{
+    "autoload": {
+        "psr-4": {
+            "Wrong\\": "src"
+        }
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^13.0"
+    },
+    "scripts": {
+        "phpunit": "phpunit"
+    }
+}
