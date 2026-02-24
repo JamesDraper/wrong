@@ -6,7 +6,6 @@ namespace Tests;
 use Wrong\Context;
 
 use PHPUnit\Framework\Attributes\Test;
-use PHPUnit\Framework\TestCase;
 
 final class ContextTest extends TestCase
 {

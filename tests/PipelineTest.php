@@ -10,12 +10,11 @@ use Wrong\Handler;
 
 use PHPUnit\Framework\Attributes\Test;
 
-use Mockery\Adapter\Phpunit\MockeryTestCase;
 use Mockery;
 
 use ArrayObject;
 
-final class PipelineTest extends MockeryTestCase
+final class PipelineTest extends TestCase
 {
     #[Test]
     public function it_executes_middlewares_and_handler_in_order(): void
