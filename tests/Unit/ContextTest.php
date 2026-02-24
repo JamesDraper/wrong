@@ -1,9 +1,11 @@
 <?php
 declare(strict_types=1);
 
-namespace Tests;
+namespace Tests\Unit;
 
 use Wrong\Context;
+
+use Tests\TestCase;
 
 use PHPUnit\Framework\Attributes\Test;
 

@@ -1,12 +1,14 @@
 <?php
 declare(strict_types=1);
 
-namespace Tests;
+namespace Tests\Unit;
 
 use Wrong\Middleware;
 use Wrong\Pipeline;
 use Wrong\Context;
 use Wrong\Handler;
+
+use Tests\TestCase;
 
 use PHPUnit\Framework\Attributes\Test;
 

@@ -22,7 +22,10 @@
             "@phpstan",
             "@phpcs"
         ],
-        "phpunit": "phpunit",
+        "phpunit": [
+            "@phpunit.unit"
+        ],
+        "phpunit.unit": "phpunit --testsuite=unit",
         "phpstan": "phpstan",
         "phpcs": [
             "@phpcs.src",
