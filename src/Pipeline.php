@@ -6,7 +6,7 @@ namespace Wrong;
 use function array_reverse;
 use function array_reduce;
 
-class Pipeline
+final class Pipeline
 {
     /**
      * @var callable
