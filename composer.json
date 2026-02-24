@@ -13,10 +13,17 @@
         "phpunit/phpunit": "^13.0",
         "mockery/mockery": "^1.6",
         "dg/bypass-finals": "^1.9",
-        "phpstan/phpstan": "^2.1"
+        "phpstan/phpstan": "^2.1",
+        "squizlabs/php_codesniffer": "^4.0"
     },
     "scripts": {
         "phpunit": "phpunit",
-        "phpstan": "phpstan"
+        "phpstan": "phpstan",
+        "phpcs": [
+            "@phpcs.src",
+            "@phpcs.tests"
+        ],
+        "phpcs.src": "phpcs --standard=phpcs.src.xml src",
+        "phpcs.tests": "phpcs --standard=phpcs.tests.xml tests"
     }
 }
