@@ -26,8 +26,10 @@
             "@phpcs"
         ],
         "phpunit": [
-            "@phpunit.unit"
+            "@phpunit.unit",
+            "@phpunit.integration"
         ],
+        "phpunit.integration": "phpunit --testsuite=integration",
         "phpunit.unit": "phpunit --testsuite=unit",
         "phpstan": "phpstan",
         "phpcs": [
